@@ -1,6 +1,6 @@
-# 📊 Data Cleaning Using SQL – Company Layoffs Dataset
+# Data Cleaning Using SQL – Company Layoffs Dataset
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on cleaning and transforming a real-world company layoffs dataset using SQL in MySQL Workbench.
 
@@ -8,7 +8,7 @@ The dataset contains information about employee layoffs across different compani
 
 The main objective of this project is to identify and resolve data quality issues, remove duplicate records, standardize inconsistent data, handle missing values, and prepare a clean dataset for further analysis.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Identify and remove duplicate records.
 - Standardize inconsistent company and industry names.
@@ -18,7 +18,7 @@ The main objective of this project is to identify and resolve data quality issue
 - Remove records with missing layoff information.
 - Prepare a clean dataset for further analysis.
 
-## 📂 Dataset Description
+## Dataset Description
 
 The dataset contains the following columns:
 
@@ -34,14 +34,14 @@ The dataset contains the following columns:
 | Country | Country where the company operates |
 | Funds Raised (Millions) | Total funds raised by the company in millions |
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Database:** MySQL
 - **SQL Editor:** MySQL Workbench
 - **Language:** SQL
 - **Version Control:** GitHub
 
-## 🔍 Data Cleaning Process
+## Data Cleaning Process
 
 ### 1. Creating Staging Tables
 - Created staging tables using `CREATE TABLE LIKE`.
@@ -75,7 +75,7 @@ The dataset contains the following columns:
 - Retrieved the final cleaned dataset using SELECT statements.
 - Prepared the cleaned data for further analysis.
 
-## 💡 SQL Concepts Used
+## SQL Concepts Used
 
 This project demonstrates practical implementation of:
 
@@ -91,7 +91,7 @@ This project demonstrates practical implementation of:
 - ALTER TABLE
 - GROUP BY and PARTITION BY
 
-## 📁 Project Files
+## Project Files
 
 | File Name | Description |
 |---|---|
@@ -100,7 +100,7 @@ This project demonstrates practical implementation of:
 | `cleaned_layoffs.csv` | Final cleaned dataset |
 | `README.md` | Project documentation |
 
-## 🚀 Future Scope
+## Future Scope
 
 The cleaned dataset can be used for further Exploratory Data Analysis (EDA) to explore:
 
@@ -111,7 +111,7 @@ The cleaned dataset can be used for further Exploratory Data Analysis (EDA) to e
 - Which company funding stages experienced significant layoffs?
 - Is there a relationship between company funding and employee layoffs?
 
-## 📚 Key Learnings
+## Key Learnings
 
 Through this project, I gained hands-on experience in:
 
@@ -124,7 +124,7 @@ Through this project, I gained hands-on experience in:
 - Using joins to retrieve and update missing information.
 - Preparing structured datasets for further analysis.
 
-## 👩‍💻 Author
+## Author
 
 **Anvi**
 
